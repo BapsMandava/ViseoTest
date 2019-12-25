@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_member">
+
+    <fragment
+        android:id="@+id/navigation_member"
+        android:name="com.example.viseotest.ui.member.MemberFragment"
+        android:label="@string/title_members"
+        tools:layout="@layout/fragment_member" />
+
+    <fragment
+        android:id="@+id/navigation_company"
+        android:name="com.example.viseotest.ui.company.CompanyFragment"
+        android:label="@string/title_company"
+        tools:layout="@layout/fragment_company" />
+</navigation>
