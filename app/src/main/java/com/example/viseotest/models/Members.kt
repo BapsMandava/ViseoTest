@@ -2,14 +2,14 @@ package com.example.viseotest.models
 
 import com.google.gson.annotations.SerializedName
 
-data class Data (
+data class ClubData (
 
     @SerializedName("_id") val id : String,
     @SerializedName("company") val company : String,
     @SerializedName("website") val website : String,
     @SerializedName("logo") val logo : String,
     @SerializedName("about") val about : String,
-    @SerializedName("members") val members : List<Members>
+    @SerializedName("members") val members : MutableList<Members>
 )
 
 data class Members (

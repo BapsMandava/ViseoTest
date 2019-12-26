@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.viseotest.R
+import com.example.viseotest.viewmodel.MemberViewModel
 
 class MemberFragment : Fragment() {
 
