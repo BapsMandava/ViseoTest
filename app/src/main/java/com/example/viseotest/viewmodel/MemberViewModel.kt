@@ -8,7 +8,7 @@ import com.example.viseotest.models.Members
 class MemberViewModel : ViewModel() {
 
     val memberRepository= MemberRepository()
-    val allBlog: LiveData<List<Members>> get() = memberRepository.getMutableLiveData()
+    val allMembers: LiveData<List<Members>> get() = memberRepository.getMutableLiveData()
 
     private val _text = MutableLiveData<String>().apply {
         value = "This is home Fragment"
